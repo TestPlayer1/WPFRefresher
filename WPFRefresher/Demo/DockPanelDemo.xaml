@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WPFRefresher.Demo.DockPanelDemo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFRefresher.Demo"
+             mc:Ignorable="d" 
+             Background="White"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <DockPanel >
+            <Button Content = "Top" DockPanel.Dock = "Top" />
+            <Button Content = "Bottom" DockPanel.Dock = "Bottom"  />
+            <Button Content = "Left"  DockPanel.Dock = "Left"   />
+            <Button Content = "Right" DockPanel.Dock = "Right"  />
+            <Button Content = "Center" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+        </DockPanel>
+    </Grid>
+</UserControl>
